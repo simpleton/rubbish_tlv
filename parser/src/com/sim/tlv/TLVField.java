@@ -16,4 +16,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TLVField {
 	int type() default 0;
+	int l_len() default 2;
 }

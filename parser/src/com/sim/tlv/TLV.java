@@ -18,4 +18,5 @@ import java.lang.annotation.Target;
 public @interface TLV {
 	String name() default"";
 	int type() default 0;
+	int type_len() default 2;
 }
